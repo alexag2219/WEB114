@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--Alexa Gomez 4/15/26-->
+
+<html lang="en"> 
+    <head> 
+        <title> Mood Switcher </title>
+        <meta charset= "utf-8">
+        <script src="moods.js" defer></script>
+        <link rel="stylesheet" href="moods.css">
+    </head>
+    <body>  
+         <h1> Project 7 -- DOM and JS </h1>
+         <section id="questions"> 
+
+         <h2> Javascript Questions</h2>
+         <h3> 1. Why is textContent safer than innerHTML?</h3>
+         <p><strong>Answer:</strong> textContent is safer as it deals with plain text, making it safer when input might not be trusted.</p>
+         <h3> 2. How are HTML elements connected to JavaScript variables using DOM selection?</h3>
+         <p><strong>Answer:</strong> The HTML elements are connected to JavaScript variables using DOM selection by using the element ID.</p>
+         <h3> 3. What would happen to the text box with id="text" if I added this line to the code above it: text.textConent = "Hello!"</h3>
+         <p><strong>Answer:</strong> If you added the line of code above it would change the content that goes along with the element id="text."</p>
+        </section>
+
+        <h2 id="title">Choose a Mood</h2>
+        <p>Click a mood to change the theme!</p>
+
+        <div id="buttons">
+            <button class="mood-btn" id="happyBtn">Happy</button>
+            <button class="mood-btn" id="calmBtn">Calm</button>
+            <button class="mood-btn" id="angryBtn">Angry</button>
+            <button class="mood-btn" id="sleepyBtn">Sleepy</button>
+        </div>
+
+        <p id="quote">No mood selected...</p>
+
+    </body>
+
+</html>
