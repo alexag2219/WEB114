@@ -1,0 +1,34 @@
+<!--Alexa Gomez Love Calculator Game Final 4/29/26-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Love Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <div id="container-box">
+            <h1>Love Calculator</h1>
+            <p>Enter your name and your crush's name to see the chance that this relationship will work out: </p>
+            <br>
+            <label for="your-name">Your Name: </label>
+            <!--id="your name" is being used by javascript to see what the input into the box is to create a message later on-->
+            <input type="text" id="your-name" name="your-name"><br><br>
+            <label for="crush-name">Crush's Name: </label>
+            <input type="text" id="crush-name" name="crush-name"><br><br>
+
+            <!--button id to link to JS to actually click when pressed-->
+            <button id="calculate">Calculate</button>
+
+            <!--message result-->
+            <h2 id="result-message"></h2>
+            <p id="result-percentage"></p>
+            <div id ="buttons">
+                <button class="Play-again" id="repeatBtn">Play Again!</button>
+            </div>
+
+        </div>
+    </body>
+</html>
